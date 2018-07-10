@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour {
 
         rb.velocity = move * speed;
 		//This comment was added in git
+		
+		//this is another line to test how this works
 	}
 
     
