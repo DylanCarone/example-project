@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour {
         Vector2 move = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
         rb.velocity = move * speed;
+		//This comment was added in git
 	}
 
     
